@@ -1,0 +1,16 @@
+//Get a four-digit number from the user and check if the first 2 digits and last 2 digits are the same. If yes, print "Success"; otherwise, print "Failure".
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a two digit number :");
+    scanf("%d",&a);
+    if(a%100==a/100)
+    {
+         printf("Success");
+    }
+    else
+    {
+        printf("Failure");
+    }
+}
